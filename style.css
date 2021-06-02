@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main
+{
+    position: relative;
+    width: 60%;
+    height: 60vh;
+    border: 1px solid;
+    margin: auto;
+    overflow: hidden;
+}
+.child
+{
+    width: 500%;
+    height: 100%;
+    position: relative;
+    border: 1px solid red;
+    display: flex;
+    transition-duration: 1s;
+}
+.child>img
+{
+    width: 20%;
+    height: 100%;
+}
+.bt1
+{
+    position: relative;
+    left: 35%;
+    border: 1px solid;
+    width: 80px;
+    float: left;
+    margin-left: 20px;
+    text-transform: uppercase;
+}
+.bt1:hover
+{
+    cursor: pointer;
+}
